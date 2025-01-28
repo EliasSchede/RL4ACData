@@ -1,0 +1,52 @@
+--seed 84
+--par 1
+
+--quality_penelty 1000
+
+--rl beta
+--init_weights xavier 
+
+--relu_advantage True
+--clamp_before True
+
+--norm znorm
+--v_mode mean_batch
+
+--entropy_loss False
+
+--ec 0
+
+--run_default False
+
+--racesize 127
+
+--termination_criterion runtime
+
+--instance_set_size 20
+--delete_features True
+
+--racesize 127
+
+--localmode False
+
+--num_neurons 512
+
+--num_blocks 9
+
+--clip_value 0.5
+
+--batchsize 254
+
+--ppo_epochs 10
+
+--lr 0.0001
+
+--lr_schedule False
+
+--memory_limit 1536
+--cutoff_time 60
+
+--log_folder rls/cplex_7_4_40_1_
+
+--wrapper_mod_name selector.wrapper.cplex_wrapper_twenty_two_max
+--wrapper_class_name MipWrapper

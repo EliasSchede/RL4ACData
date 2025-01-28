@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/CPLEX-22_1_1/params.pcs
+run_obj = quality 
+cutoff_time = 60
+wallclock_limit = 86400 
+instance_file = ./input/instances/mip/sets/7_2_25/training_cplex.txt
+feature_file = ./input/instances/mip/sets/7_2_25/features.txt
+test_instance_file = ./input/instances/mip/sets/7_2_25/test_cplex.txt

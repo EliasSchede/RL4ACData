@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/CPLEX-22_1_1/params.pcs
+run_obj = runtime 
+cutoff_time = 300
+wallclock_limit = 172800 
+instance_file = ./input/instances/mip/sets/RCW2/training_cplex.txt
+feature_file = ./input/instances/mip/sets/RCW2/features.txt
+test_instance_file = ./input/instances/mip/sets/RCW2/test_cplex.txt

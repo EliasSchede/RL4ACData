@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/glucose-syrup-41/params.pcs
+run_obj = runtime 
+cutoff_time = 300
+wallclock_limit = 172800 
+instance_file = ./input/instances/sat/sets/3CNF-V350-CSSC14/training_glucose.txt
+feature_file = ./input/instances/sat/sets/3CNF-V350-CSSC14/features.txt
+test_instance_file = ./input/instances/sat/sets/3CNF-V350-CSSC14/test_glucose.txt

@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/Open-WBO-Inc-master/params.pcs
+run_obj = quality 
+cutoff_time = 60
+wallclock_limit = 86400 
+instance_file = ./input/instances/sat/sets/dimacs_mod/training_wbo.txt
+feature_file = ./input/instances/sat/sets/dimacs_mod/features.txt
+test_instance_file = ./input/instances/sat/sets/dimacs_mod/test_wbo.txt

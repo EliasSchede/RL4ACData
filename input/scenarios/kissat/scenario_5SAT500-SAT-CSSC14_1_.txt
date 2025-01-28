@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/kissat-master/params.pcs
+run_obj = runtime 
+cutoff_time = 300
+wallclock_limit = 172800 
+instance_file = ./input/instances/sat/sets/5SAT500-SAT-CSSC14/training_kissat.txt
+feature_file = ./input/instances/sat/sets/5SAT500-SAT-CSSC14/features.txt
+test_instance_file = ./input/instances/sat/sets/5SAT500-SAT-CSSC14/test_kissat.txt

@@ -1,0 +1,7 @@
+paramfile = ./input/target_algorithms/cadical-sc17-proof/params.pcs
+run_obj = runtime 
+cutoff_time = 300
+wallclock_limit = 172800 
+instance_file = ./input/instances/sat/sets/IBM-CSSC14/training_cadical.txt
+feature_file = ./input/instances/sat/sets/IBM-CSSC14/features.txt
+test_instance_file = ./input/instances/sat/sets/IBM-CSSC14/test_cadical.txt
