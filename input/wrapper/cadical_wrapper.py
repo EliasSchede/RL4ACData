@@ -25,7 +25,7 @@ class Cadical_Wrapper():
                 configuration += f" --{param}={value}"
 
         exc = './input/target_algorithms/cadical-sc17-proof/build/cadical/build/cadical'
-        instance_p = f'/scratch/hpc-prf-winf4/eschede/torero_selector/selector/input/{instance}'
+        instance_p = f'./input/{instance}'
         cmd = f"stdbuf -oL {exc} {configuration} -q {instance_p}"
         #print(cmd)
         return cmd
