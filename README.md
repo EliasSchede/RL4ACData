@@ -4,13 +4,15 @@
 <br>
 
 ### Configuration scenarios
-
-The following algorithms are not included in ACLIB. We provide links to get them here
+ 
+We provide links to the use target algorithms:
 
 + **[Loandra](https://github.com/jezberg/loandra):** Version 1.0 [1]  
 + **[WBO](https://github.com/sbjoshi/Open-WBO-Inc):** [2]
 + **[CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio):** Version: 22.1.1.0 [3]  
 + **[KISSAT](https://github.com/arminbiere/kissat):** Version 3.1.1 [4]  
++ **[Glucose](https://github.com/audemard/glucose):** Version 4.1  
++ **[CaDiCaL](https://github.com/arminbiere/cadical)** Version: Sc17
 
 Each configuration scenario contains:  
 + Training and test instance files and features;  
